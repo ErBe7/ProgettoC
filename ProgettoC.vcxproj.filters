@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Livello1.cpp">
+    <ClCompile Include="MappaLV1.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
