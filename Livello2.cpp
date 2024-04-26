@@ -1,6 +1,1 @@
-#include <stdlib.h>
-#include <stdio.h>
-
-int main() {
-	printf("Ciao");
-}
+// Fare file .exe alla fine di tutto userò codeBlocks finchè non finisco
