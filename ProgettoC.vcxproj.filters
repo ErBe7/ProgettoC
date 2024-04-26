@@ -18,5 +18,11 @@
     <ClCompile Include="Livello1.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="Livello2.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

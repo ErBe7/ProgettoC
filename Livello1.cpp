@@ -240,5 +240,6 @@ int main() {
         }
     }
 
-    return 0;
+    // Esegui il secondo programma
+    system("Livello2.cpp");
 }
