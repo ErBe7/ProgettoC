@@ -13,12 +13,15 @@ Livello 1 completato senza non troppi problemi, l'unica sfida è stato creare l'
 Ma soprattutto sono fiero di come è venuto il movimento nella matrice e del personaggio e nemici.
 
 -**Generazione Nemici:**
+
 <img src="assets/Generazione_Nemici.png" alt="Livello 1 generazione nemici">
 
 -**Movimento:**
+
 <img src="assets/MovimentoPersonaggioNemico.png" alt="Movimento personaggio nemico">
 
 -**Morte personaggio:**
+
 <img src="assets/MortePersonaggio.png" alt="Morte personaggio">
 
 -**Vittoria personaggio:**
