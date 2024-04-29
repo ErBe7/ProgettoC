@@ -101,7 +101,7 @@ int main() {
         printMatrix(matrix, playerRow, playerCol);
 
         printf("\nIn che direzione vuoi muoverti? (w/a/s/d) o se vuoi ricominciare (r) o se vuoi un aiuto (A): ");
-        scanf(" %c", &direction);
+        scanf_s(" %c", &direction);
 
         prevPlayerRow = playerRow;
         prevPlayerCol = playerCol;
@@ -242,7 +242,7 @@ int main() {
         case 'r':
             // Richiedi all'utente se vuole ricominciare la partita
             printf("Vuoi ricominciare la partita? (s/n): ");
-            scanf(" %c", &playAgain);
+            scanf_s(" %c", &playAgain);
             if (playAgain == 's' || playAgain == 'S') {
                 resetGame(matrix, &playerRow, &playerCol, &prevPlayerRow, &prevPlayerCol);
                 legendPrinted = 0;
@@ -312,7 +312,7 @@ int main() {
             matrix[9][6] = ' ';
             printMatrix(matrix, playerRow, playerCol);
             printf("Vuoi ricominciare la partita? (s/n): ");
-            scanf(" %c", &playAgain);
+            scanf_s(" %c", &playAgain);
             if (playAgain == 's' || playAgain == 'S') {
                 resetGame(matrix, &playerRow, &playerCol, &prevPlayerRow, &prevPlayerCol);
                 legendPrinted = 0;

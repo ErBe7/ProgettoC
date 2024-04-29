@@ -110,7 +110,7 @@ void generateEnemies(char table[ROWS][COLS]) {
 
 int main() {
     // Inizializzazione del generatore di numeri casuali
-    srand(time(NULL));
+    srand(time_t(NULL));
 
     // Definizione della matrice per la tabella
     char table[ROWS][COLS] = {
@@ -152,7 +152,7 @@ int main() {
 
     while (1) {
         printf("In che direzione vuoi muoverti? (w/a/s/d): ");
-        scanf(" %c", &direction); // %c per leggere un singolo carattere
+        scanf_s(" %c", &direction); // %c per leggere un singolo carattere
 
         // Muovi il personaggio in base alla direzione
         switch (direction) {
